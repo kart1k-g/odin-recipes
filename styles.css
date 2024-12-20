@@ -1,0 +1,30 @@
+body{
+    background-image: url("./img/idxBg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.idxHeading{
+    text-align: center;
+    font-size: 48px;
+    margin-top: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#listContainer{
+    background-color: wheat;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+    border-radius: 10px;
+}
+.dish{
+    font-size: 28px;
+    text-decoration: none;
+    color: #536ca7;
+    line-height: 48px;
+}
+.dish:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
