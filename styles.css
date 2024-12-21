@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0px; */
+    padding: 0px;
+    border: 0px;
+}
 body{
     background-image: url("./img/idxBg.webp");
     background-repeat: no-repeat;
@@ -13,8 +19,8 @@ body{
     background-color: wheat;
     padding: 20px;
     margin-top: 40px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 160px;
+    margin-right: 160px;
 
     border-radius: 10px;
 }
@@ -27,4 +33,7 @@ body{
 .dish:hover{
     text-decoration: underline;
     font-weight: bold;
+}
+ul{
+    padding: 0px 40px;
 }
